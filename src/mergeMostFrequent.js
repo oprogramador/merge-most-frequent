@@ -2,7 +2,7 @@ import _ from 'lodash';
 
 const getMostFrequentValue = array => _.maxBy(
   array,
-  item => array.filter(innerItem => !_.isUndefined(innerItem) && !_.isUndefined(item) && innerItem === item).length
+  item => array.filter(innerItem => !_.isUndefined(innerItem) && !_.isUndefined(item) && innerItem === item).length,
 );
 
 function mergeMostFrequent(objects) {
