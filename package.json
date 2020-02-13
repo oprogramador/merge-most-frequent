@@ -1,6 +1,6 @@
 {
   "name": "merge-most-frequent",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "JS library for merging objects like Object.assign but it takes the most frequent value instead of the last value",
   "main": "build/index.js",
   "scripts": {
